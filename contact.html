@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 4 site</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<!-- Personnal CSS-->
+<link rel="stylesheet" href="css/style.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Epic7</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="where.html">Where</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="table.html">Table</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+        <br>
+        <form>
+            <fieldset>
+              <legend>Contact Us</legend>
+              <div class="form-group row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" value="email@example.com">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Adresse e-mail</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Votre adresse e-mail : xxxxxxxxxxxx@xxxxxx.com">
+                <small id="emailHelp" class="form-text text-muted">Cette adresse e-mail ne sera pas communiquée à personne d'autre.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleSelect1">Pourquoi nous contacter?</label>
+                <select class="form-control" id="exampleSelect1">
+                  <option>Problème rencontré avec mon compte</option>
+                  <option>Notification de bug</option>
+                  <option>Je suis un créateur de contenu et je souhaite proposé une collaboration</option>
+                  <option>Je cherche un Job</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleTextarea">Votre Message</label>
+                <textarea class="form-control" id="exampleTextarea" rows="3" spellcheck="false"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputFile">Pièce jointe</label>
+                <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                <small id="fileHelp" class="form-text text-muted">Pièce jointe liée à votre message afin d'expliciter votre message.</small>
+              </div>
+             
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </fieldset>
+        </form>
+
+
+    </div>
+</body>
+</html>
